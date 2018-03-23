@@ -1,1 +1,19 @@
-*.meta
+# Unity Generated #
+/Assets/AssetPacks/
+Library/
+Temp/
+obj/
+UnityPackageManager/
+FoxL_Data/
+
+# VS/ MonoDevelop#
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj

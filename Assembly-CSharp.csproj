@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6B5966CC-8B21-1562-F458-367B524DDABD}</ProjectGuid>
+    <ProjectGuid>{7082F75A-7054-7E1B-0AD9-A78AC9D4C11A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,8 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AssetPacks\LowPolySurvivalEssentials\LowPolySurvivalEssentials\Example\Scripts\AnimatedFire.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\FoxBehaviorScript.cs" />
+     <Compile Include="Assets\Scripts\FoxWanderTest.cs" />
+     <None Include="Assets\AssetPacks\LowPolySurvivalEssentials\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
+     <None Include="Assets\AssetPacks\LowPolySurvivalEssentials\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
